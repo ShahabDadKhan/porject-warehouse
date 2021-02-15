@@ -1,0 +1,126 @@
+.logo {
+  width: 49px;
+  height: 35px;
+}
+
+.nav {
+  @include flexbox;
+  width: 100%;
+  margin-top: 50px;
+
+  &__links {
+    @include flexbox;
+
+    width: 430px;
+    height: auto;
+    margin-right: 250px;
+    list-style: none;
+    // text-decoration: none;
+
+    &-items {
+      text-decoration: none;
+      color: var(--color-grey-dark-2);
+
+      @include hs1;
+
+      &-1 {
+        color: var(--color-grey-dark-1);
+        font-weight: 800;
+      }
+    }
+  }
+
+  &__btn {
+    &-1 {
+      width: 210px;
+      height: 60px;
+      background-color: var(--color-primary-1);
+      color: var(--color-primary);
+      border-radius: 50px;
+      text-decoration: none; // text-align: center;
+      @include flexbox;
+      @include hs1;
+      font-size: 800;
+      justify-content: center;
+      // box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 10%);
+      box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    }
+
+    &-2 {
+      text-decoration: none;
+      color: var(--color-grey-light);
+      font-weight: 800; // text-align: center;
+    }
+
+    &-3 {
+      text-decoration: none;
+    }
+  }
+
+  // .btn__container {
+  //   // &-1 {
+  //   //   box-shadow: 0 1.5rem 4rem rgba(75, 93, 104, 1);
+  //   // }
+  // }
+
+  &__down {
+    width: 100%;
+    height: 100%;
+    @include flexbox;
+    flex-direction: row;
+
+    &-right {
+      width: 885px;
+      height: 468px;
+      margin-top: 200px;
+      margin-left: -260px;
+    }
+  }
+}
+
+.image__container {
+  &-1 {
+    width: 885px;
+    height: 468px;
+  }
+
+  &-2 {
+    width: 447px;
+    height: 504px;
+  }
+
+  &-3 {
+    width: 232px;
+    height: 211px;
+  }
+}
+.image {
+  &-1 {
+    width: 100%;
+  }
+
+  &-2 {
+    width: 100%;
+  }
+
+  &-3 {
+    width: 100%;
+  }
+}
+
+.rectangle {
+  // -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  background-color: var(--color-grey-light-1);
+  // background-color: ;
+}
+
+.footer__up {
+  &-a {
+    @include flexbox;
+    flex-direction: column;
+  }
+  &-1 {
+    @include flexbox;
+    align-items: center;
+  }
+}
