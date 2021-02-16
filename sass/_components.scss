@@ -106,6 +106,16 @@
   &-3 {
     width: 100%;
   }
+
+  &-4 {
+    width: 360px;
+    height: 50px;
+  }
+
+  &-5 {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .rectangle {
@@ -115,12 +125,74 @@
 }
 
 .footer__up {
-  &-a {
-    @include flexbox;
-    flex-direction: column;
+  // width: 408px;
+  height: 408px;
+  @include flexbox;
+  align-items: baseline;
+
+  &-logo {
+    width: 49px;
+    height: 35px;
   }
+  &-a {
+    width: 370px;
+    height: 100%;
+    @include flexbox;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  &-b {
+    @include flexbox;
+    height: 100%;
+    // display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   &-1 {
     @include flexbox;
     align-items: center;
+
+    width: 340px;
+  }
+
+  &-d {
+    width: 178px;
+    height: 110px;
+    @include flexbox;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &-sm {
+    width: 178px;
+  }
+
+  &-about {
+    height: 155px;
+
+    &-1 {
+      list-style: none;
+      @include hs2;
+      @include flexbox;
+      flex-direction: column;
+      // align-items: none;
+      justify-content: space-between;
+
+      height: 100%;
+      // display: flex;
+      // justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    // @include hs2;
+    // height: 155px;
+    // @include flexbox;
+    // flex-direction: column;
+    // align-items: none;
+    // justify-content: space-between;
   }
 }

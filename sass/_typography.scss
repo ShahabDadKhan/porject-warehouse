@@ -93,6 +93,11 @@
     &-2 {
       @include hs2;
     }
+
+    &-3 {
+      @include hs3;
+      font-weight: 900;
+    }
   }
 }
 
