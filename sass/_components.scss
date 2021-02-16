@@ -169,6 +169,7 @@
 
   &-sm {
     width: 178px;
+    // color: var(--color-primary);
   }
 
   &-about {
@@ -195,4 +196,8 @@
     // align-items: none;
     // justify-content: space-between;
   }
+
+  // &-hs3 {
+  //   color: var(--color-primary);
+  // }
 }

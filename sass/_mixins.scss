@@ -35,6 +35,7 @@
   font-size: 18px;
   line-height: 29px;
   color: var(--color-grey-dark-2);
+  // color: var(--color-primary);
 }
 
 @mixin hs2 {
@@ -55,4 +56,15 @@
 @mixin hs4 {
   font-family: Poppins;
   font-weight: 900;
+  // color: var(--color-grey-dark-2);
+  color: var(--color-primary);
+}
+
+@mixin hs5 {
+  font-family: Poppins;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  // color: var(--color-grey-dark-2);
+  color: var(--color-primary);
 }

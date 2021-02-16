@@ -97,6 +97,11 @@
     &-3 {
       @include hs3;
       font-weight: 900;
+      color: var(--color-primary);
+    }
+
+    &-5 {
+      @include hs5;
     }
   }
 }
